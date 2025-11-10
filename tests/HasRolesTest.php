@@ -1,10 +1,10 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Exceptions\RoleDoesNotExist;
-use Maklad\Permission\Models\Role;
+use RamdanEwis\Permission\Exceptions\GuardDoesNotMatch;
+use RamdanEwis\Permission\Exceptions\RoleDoesNotExist;
+use RamdanEwis\Permission\Models\Role;
 use Monolog\Logger;
 
 class HasRolesTest extends TestCase

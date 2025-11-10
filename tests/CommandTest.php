@@ -1,10 +1,10 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Artisan;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
+use RamdanEwis\Permission\Models\Permission;
+use RamdanEwis\Permission\Models\Role;
 
 class CommandTest extends TestCase
 {

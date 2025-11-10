@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Benchmarks;
+namespace RamdanEwis\Permission\Benchmarks;
 
 /**
  * Permission Performance Benchmarks

@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
+use RamdanEwis\Permission\Models\Permission;
+use RamdanEwis\Permission\Models\Role;
 
 /**
  * Example Roles and Permissions Seeder
@@ -18,7 +18,7 @@ class RolesAndPermissionsSeeder extends Seeder
     public function run(): void
     {
         // Reset cached roles and permissions
-        app()[\Maklad\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
+        app()[\RamdanEwis\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
         // Create Permissions
         $permissions = [

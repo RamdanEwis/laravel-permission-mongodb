@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Support\Facades\DB;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
-use Maklad\Permission\PermissionRegistrar;
+use RamdanEwis\Permission\Models\Permission;
+use RamdanEwis\Permission\Models\Role;
+use RamdanEwis\Permission\PermissionRegistrar;
 
 class CacheTest extends TestCase
 {

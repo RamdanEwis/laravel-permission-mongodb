@@ -1,5 +1,5 @@
 {
-    "name": "webrek/laravel-permission-mongodb",
+    "name": "ramdanewis/laravel-permission-mongodb",
     "description": "Permission handling for Laravel 10.x, 11.x, and 12.x using MongoDB",
     "keywords": [
         "laravel",
@@ -15,7 +15,7 @@
         "mostafa",
         "spatie"
     ],
-    "homepage": "https://github.com/webrek/laravel-permission-mongodb",
+    "homepage": "https://github.com/RamdanEwis/laravel-permission-mongodb",
     "license": "MIT",
     "authors": [
         {
@@ -56,12 +56,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Maklad\\Permission\\": "src"
+            "RamdanEwis\\Permission\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Maklad\\Permission\\Test\\": "tests"
+            "RamdanEwis\\Permission\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -84,7 +84,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maklad\\Permission\\PermissionServiceProvider"
+                "RamdanEwis\\Permission\\PermissionServiceProvider"
             ]
         }
     }

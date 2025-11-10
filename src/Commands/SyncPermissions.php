@@ -1,10 +1,10 @@
 <?php
 
-namespace Maklad\Permission\Commands;
+namespace RamdanEwis\Permission\Commands;
 
 use Illuminate\Console\Command;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Contracts\RoleInterface as Role;
+use RamdanEwis\Permission\Contracts\PermissionInterface as Permission;
+use RamdanEwis\Permission\Contracts\RoleInterface as Role;
 
 class SyncPermissions extends Command
 {

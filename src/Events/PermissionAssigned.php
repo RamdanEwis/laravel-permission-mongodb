@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Events;
+namespace RamdanEwis\Permission\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 use MongoDB\Laravel\Eloquent\Model;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
+use RamdanEwis\Permission\Contracts\PermissionInterface as Permission;
 
 /**
  * Event fired when a permission is assigned to a model

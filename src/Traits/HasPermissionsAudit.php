@@ -1,8 +1,8 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace RamdanEwis\Permission\Traits;
 
-use Maklad\Permission\Models\PermissionAudit;
+use RamdanEwis\Permission\Models\PermissionAudit;
 
 /**
  * Trait HasPermissionsAudit

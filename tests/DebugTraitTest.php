@@ -1,8 +1,8 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
-use Maklad\Permission\Traits\HasPermissionsDebug;
+use RamdanEwis\Permission\Traits\HasPermissionsDebug;
 use Illuminate\Support\Facades\Log;
 
 // Create a test user model that uses the debug trait

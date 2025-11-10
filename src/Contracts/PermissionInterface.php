@@ -1,12 +1,12 @@
 <?php
 
-namespace Maklad\Permission\Contracts;
+namespace RamdanEwis\Permission\Contracts;
 
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
+use RamdanEwis\Permission\Exceptions\PermissionDoesNotExist;
 
 /**
  * Interface PermissionInterface
- * @package Maklad\Permission\Contracts
+ * @package RamdanEwis\Permission\Contracts
  */
 interface PermissionInterface
 {

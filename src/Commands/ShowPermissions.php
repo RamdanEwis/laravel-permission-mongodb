@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Commands;
+namespace RamdanEwis\Permission\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace RamdanEwis\Permission\Traits;
 
 use Illuminate\Support\Collection;
 
@@ -12,7 +12,7 @@ use Illuminate\Support\Collection;
  *
  * Usage: Simply add this trait to your User model alongside HasRoles
  *
- * @package Maklad\Permission\Traits
+ * @package RamdanEwis\Permission\Traits
  */
 trait HasPermissionsDebug
 {

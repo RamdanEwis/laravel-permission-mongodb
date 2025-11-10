@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Foundation\Auth\Access\Authorizable;
 use MongoDB\Laravel\Eloquent\Model;
 
-use Maklad\Permission\Traits\HasRoles;
+use RamdanEwis\Permission\Traits\HasRoles;
 
 class Admin extends Model implements AuthorizableContract, AuthenticatableContract
 {

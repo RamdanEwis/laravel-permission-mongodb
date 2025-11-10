@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Exceptions;
+namespace RamdanEwis\Permission\Exceptions;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use function app;
@@ -8,7 +8,7 @@ use function config;
 
 /**
  * Class UnauthorizedException
- * @package Maklad\Permission\Exceptions
+ * @package RamdanEwis\Permission\Exceptions
  */
 class UnauthorizedException extends HttpException
 {

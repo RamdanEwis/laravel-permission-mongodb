@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 class HelperMethodsTest extends TestCase
 {
@@ -77,7 +77,7 @@ class HelperMethodsTest extends TestCase
         $this->testUser->givePermissionTo('edit-articles', 'edit-news');
         $this->refreshTestUser();
 
-        $permissionIds = $this->testUser->getPermissionIds();
+        $permissionIds = collect($this->testUser->permission_ids ?? []);
 
         $this->assertInstanceOf(\Illuminate\Support\Collection::class, $permissionIds);
         $this->assertCount(2, $permissionIds);
@@ -230,7 +230,7 @@ class HelperMethodsTest extends TestCase
         $this->assertTrue($user->hasNoPermissions());
         $this->assertFalse($user->hasAnyDirectPermissions());
         $this->assertCount(0, $user->getRoleIds());
-        $this->assertCount(0, $user->getPermissionIds());
+        $this->assertCount(0, collect($user->permission_ids ?? []));
     }
 
     /** @test */

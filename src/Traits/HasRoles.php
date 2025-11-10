@@ -1,22 +1,22 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace RamdanEwis\Permission\Traits;
 
 use Illuminate\Support\Collection;
 use MongoDB\Laravel\Eloquent\Builder;
 use MongoDB\Laravel\Eloquent\Model;
 use MongoDB\Laravel\Relations\BelongsToMany;
-use Maklad\Permission\Contracts\RoleInterface as Role;
-use Maklad\Permission\Events\RoleAssigned as RoleAssignedEvent;
-use Maklad\Permission\Events\RoleRevoked as RoleRevokedEvent;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
+use RamdanEwis\Permission\Contracts\RoleInterface as Role;
+use RamdanEwis\Permission\Events\RoleAssigned as RoleAssignedEvent;
+use RamdanEwis\Permission\Events\RoleRevoked as RoleRevokedEvent;
+use RamdanEwis\Permission\Helpers;
+use RamdanEwis\Permission\PermissionRegistrar;
 use ReflectionException;
 use function collect;
 
 /**
  * Trait HasRoles
- * @package Maklad\Permission\Traits
+ * @package RamdanEwis\Permission\Traits
  */
 trait HasRoles
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
-use Maklad\Permission\Exceptions\PermissionAlreadyExists;
-use Maklad\Permission\Models\Permission;
+use RamdanEwis\Permission\Exceptions\PermissionAlreadyExists;
+use RamdanEwis\Permission\Models\Permission;
 use Monolog\Logger;
 
 class PermissionTest extends TestCase

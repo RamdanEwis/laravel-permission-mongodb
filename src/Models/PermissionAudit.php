@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Models;
+namespace RamdanEwis\Permission\Models;
 
 use MongoDB\Laravel\Eloquent\Model;
 

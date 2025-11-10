@@ -1,12 +1,12 @@
 <?php
 
-namespace Maklad\Permission\Middleware;
+namespace RamdanEwis\Permission\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\RateLimiter;
-use Maklad\Permission\Exceptions\UnauthorizedException;
+use RamdanEwis\Permission\Exceptions\UnauthorizedException;
 
 class PermissionMiddleware
 {

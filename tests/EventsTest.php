@@ -1,13 +1,13 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Support\Facades\Event;
-use Maklad\Permission\Events\PermissionAssigned;
-use Maklad\Permission\Events\PermissionRevoked;
-use Maklad\Permission\Events\RoleAssigned;
-use Maklad\Permission\Events\RoleRevoked;
-use Maklad\Permission\Events\PermissionCacheFlushed;
+use RamdanEwis\Permission\Events\PermissionAssigned;
+use RamdanEwis\Permission\Events\PermissionRevoked;
+use RamdanEwis\Permission\Events\RoleAssigned;
+use RamdanEwis\Permission\Events\RoleRevoked;
+use RamdanEwis\Permission\Events\PermissionCacheFlushed;
 
 class EventsTest extends TestCase
 {

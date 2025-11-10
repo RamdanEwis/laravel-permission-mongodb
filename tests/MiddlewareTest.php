@@ -1,13 +1,13 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Maklad\Permission\Exceptions\UnauthorizedException;
-use Maklad\Permission\Middlewares\PermissionMiddleware;
-use Maklad\Permission\Middlewares\RoleMiddleware;
+use RamdanEwis\Permission\Exceptions\UnauthorizedException;
+use RamdanEwis\Permission\Middlewares\PermissionMiddleware;
+use RamdanEwis\Permission\Middlewares\RoleMiddleware;
 use Monolog\Logger;
 
 class MiddlewareTest extends TestCase

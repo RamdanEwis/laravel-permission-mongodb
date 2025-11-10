@@ -1,25 +1,25 @@
 <?php
 
-namespace Maklad\Permission\Models;
+namespace RamdanEwis\Permission\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use MongoDB\Laravel\Eloquent\Model;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Contracts\RoleInterface;
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Exceptions\RoleAlreadyExists;
-use Maklad\Permission\Exceptions\RoleDoesNotExist;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\Traits\HasPermissions;
-use Maklad\Permission\Traits\RefreshesPermissionCache;
+use RamdanEwis\Permission\Contracts\PermissionInterface;
+use RamdanEwis\Permission\Contracts\RoleInterface;
+use RamdanEwis\Permission\Exceptions\GuardDoesNotMatch;
+use RamdanEwis\Permission\Exceptions\RoleAlreadyExists;
+use RamdanEwis\Permission\Exceptions\RoleDoesNotExist;
+use RamdanEwis\Permission\Guard;
+use RamdanEwis\Permission\Helpers;
+use RamdanEwis\Permission\Traits\HasPermissions;
+use RamdanEwis\Permission\Traits\RefreshesPermissionCache;
 use ReflectionException;
 use function is_string;
 
 /**
  * Class Role
  * @property string $_id
- * @package Maklad\Permission\Models
+ * @package RamdanEwis\Permission\Models
  */
 class Role extends Model implements RoleInterface
 {

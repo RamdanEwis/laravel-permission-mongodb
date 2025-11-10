@@ -1,24 +1,24 @@
 <?php
 
-namespace Maklad\Permission\Models;
+namespace RamdanEwis\Permission\Models;
 
 use Illuminate\Support\Collection;
 use MongoDB\Laravel\Eloquent\Model;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Exceptions\PermissionAlreadyExists;
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
-use Maklad\Permission\Traits\HasRoles;
-use Maklad\Permission\Traits\RefreshesPermissionCache;
+use RamdanEwis\Permission\Contracts\PermissionInterface;
+use RamdanEwis\Permission\Exceptions\PermissionAlreadyExists;
+use RamdanEwis\Permission\Exceptions\PermissionDoesNotExist;
+use RamdanEwis\Permission\Guard;
+use RamdanEwis\Permission\Helpers;
+use RamdanEwis\Permission\PermissionRegistrar;
+use RamdanEwis\Permission\Traits\HasRoles;
+use RamdanEwis\Permission\Traits\RefreshesPermissionCache;
 use ReflectionException;
 use function app;
 
 /**
  * Class Permission
  * @property string $_id
- * @package Maklad\Permission\Models
+ * @package RamdanEwis\Permission\Models
  */
 class Permission extends Model implements PermissionInterface
 {

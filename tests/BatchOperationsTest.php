@@ -1,9 +1,9 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Support\Facades\Event;
-use Maklad\Permission\Events\PermissionAssigned;
+use RamdanEwis\Permission\Events\PermissionAssigned;
 
 class BatchOperationsTest extends TestCase
 {
@@ -80,7 +80,7 @@ class BatchOperationsTest extends TestCase
         $this->testUser->revokePermissionsToBatch(['edit-articles', 'edit-news']);
 
         // Batch revoke currently doesn't fire events (performance optimization)
-        Event::assertNotDispatched(\Maklad\Permission\Events\PermissionRevoked::class);
+        Event::assertNotDispatched(\RamdanEwis\Permission\Events\PermissionRevoked::class);
     }
 
     /** @test */

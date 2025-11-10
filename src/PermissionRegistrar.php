@@ -1,18 +1,18 @@
 <?php
 
-namespace Maklad\Permission;
+namespace RamdanEwis\Permission;
 
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Collection;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Events\PermissionCacheFlushed;
+use RamdanEwis\Permission\Contracts\PermissionInterface as Permission;
+use RamdanEwis\Permission\Events\PermissionCacheFlushed;
 
 /**
  * Class PermissionRegistrar
- * @package Maklad\Permission
+ * @package RamdanEwis\Permission
  */
 class PermissionRegistrar
 {
@@ -29,7 +29,7 @@ class PermissionRegistrar
         protected readonly Gate $gate,
         protected readonly Repository $cache
     ) {
-        $this->cacheKey = 'maklad.permission.cache';
+        $this->cacheKey = config('permission.cache.key', 'ramdanewis.permission.cache');
         $this->permissionClass = config('permission.models.permission');
         $this->roleClass = config('permission.models.role');
     }

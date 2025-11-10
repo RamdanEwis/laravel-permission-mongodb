@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
+use RamdanEwis\Permission\Exceptions\GuardDoesNotMatch;
+use RamdanEwis\Permission\Exceptions\PermissionDoesNotExist;
+use RamdanEwis\Permission\Models\Permission;
+use RamdanEwis\Permission\Models\Role;
 use Monolog\Logger;
 
 class HasPermissionsTest extends TestCase

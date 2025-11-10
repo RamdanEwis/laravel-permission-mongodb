@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Exceptions;
+namespace RamdanEwis\Permission\Exceptions;
 
 /**
  * Class PermissionDoesNotExist
- * @package Maklad\Permission\Exceptions
+ * @package RamdanEwis\Permission\Exceptions
  */
-class PermissionDoesNotExist extends MakladException
+class PermissionDoesNotExist extends PermissionException
 {
 }

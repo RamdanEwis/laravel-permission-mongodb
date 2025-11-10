@@ -1,18 +1,18 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace RamdanEwis\Permission\Traits;
 
 use Illuminate\Support\Collection;
 use MongoDB\Laravel\Eloquent\Builder;
 use MongoDB\Laravel\Eloquent\Model;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Events\PermissionAssigned as PermissionAssignedEvent;
-use Maklad\Permission\Events\PermissionRevoked as PermissionRevokedEvent;
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
+use RamdanEwis\Permission\Contracts\PermissionInterface;
+use RamdanEwis\Permission\Contracts\PermissionInterface as Permission;
+use RamdanEwis\Permission\Events\PermissionAssigned as PermissionAssignedEvent;
+use RamdanEwis\Permission\Events\PermissionRevoked as PermissionRevokedEvent;
+use RamdanEwis\Permission\Exceptions\GuardDoesNotMatch;
+use RamdanEwis\Permission\Guard;
+use RamdanEwis\Permission\Helpers;
+use RamdanEwis\Permission\PermissionRegistrar;
 use ReflectionException;
 use function collect;
 use function is_array;
@@ -20,7 +20,7 @@ use function is_string;
 
 /**
  * Trait HasPermissions
- * @package Maklad\Permission\Traits
+ * @package RamdanEwis\Permission\Traits
  */
 trait HasPermissions
 {
@@ -379,16 +379,6 @@ trait HasPermissions
     public function getDirectPermissions(): Collection
     {
         return $this->permissions;
-    }
-
-    /**
-     * Return a collection of permission IDs associated with this user.
-     *
-     * @return Collection
-     */
-    public function getPermissionIds(): Collection
-    {
-        return collect($this->permission_ids ?? []);
     }
 
     /**

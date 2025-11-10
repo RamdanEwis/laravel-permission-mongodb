@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission;
+namespace RamdanEwis\Permission;
 
 use Illuminate\Support\Collection;
 use ReflectionClass;
@@ -10,7 +10,7 @@ use function is_object;
 
 /**
  * Class Guard
- * @package Maklad\Permission
+ * @package RamdanEwis\Permission
  */
 class Guard
 {

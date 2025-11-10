@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Events;
+namespace RamdanEwis\Permission\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

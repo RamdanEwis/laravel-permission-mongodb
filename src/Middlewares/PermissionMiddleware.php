@@ -1,18 +1,18 @@
 <?php
 
-namespace Maklad\Permission\Middlewares;
+namespace RamdanEwis\Permission\Middlewares;
 
 use Closure;
-use Maklad\Permission\Exceptions\UnauthorizedException;
-use Maklad\Permission\Exceptions\UnauthorizedPermission;
-use Maklad\Permission\Exceptions\UserNotLoggedIn;
-use Maklad\Permission\Helpers;
+use RamdanEwis\Permission\Exceptions\UnauthorizedException;
+use RamdanEwis\Permission\Exceptions\UnauthorizedPermission;
+use RamdanEwis\Permission\Exceptions\UserNotLoggedIn;
+use RamdanEwis\Permission\Helpers;
 use function explode;
 use function is_array;
 
 /**
  * Class PermissionMiddleware
- * @package Maklad\Permission\Middlewares
+ * @package RamdanEwis\Permission\Middlewares
  */
 class PermissionMiddleware
 {

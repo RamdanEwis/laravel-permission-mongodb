@@ -1,15 +1,15 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace RamdanEwis\Permission\Test;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use MongoDB\Laravel\MongodbServiceProvider;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
-use Maklad\Permission\PermissionRegistrar;
-use Maklad\Permission\PermissionServiceProvider;
+use RamdanEwis\Permission\Helpers;
+use RamdanEwis\Permission\Models\Permission;
+use RamdanEwis\Permission\Models\Role;
+use RamdanEwis\Permission\PermissionRegistrar;
+use RamdanEwis\Permission\PermissionServiceProvider;
 use Monolog\Handler\TestHandler;
 use Orchestra\Testbench\TestCase as Orchestra;
 

@@ -10,10 +10,10 @@ return [
          * is often just the "Permission" model but you may use whatever you like.
          *
          * The model you want to use as a Permission model needs to implement the
-         * `Maklad\Permission\Contracts\Permission` contract.
+         * `RamdanEwis\Permission\Contracts\Permission` contract.
          */
 
-        'permission' => Maklad\Permission\Models\Permission::class,
+        'permission' => RamdanEwis\Permission\Models\Permission::class,
 
         /*
          * When using the "HasRoles" trait from this package, we need to know which
@@ -21,10 +21,10 @@ return [
          * is often just the "Role" model but you may use whatever you like.
          *
          * The model you want to use as a Role model needs to implement the
-         * `Maklad\Permission\Contracts\Role` contract.
+         * `RamdanEwis\Permission\Contracts\Role` contract.
          */
 
-        'role' => Maklad\Permission\Models\Role::class,
+        'role' => RamdanEwis\Permission\Models\Role::class,
 
     ],
 
@@ -58,7 +58,7 @@ return [
     'cache' => [
         'store' => env('PERMISSION_CACHE_STORE', null),
         'expiration_time' => env('PERMISSION_CACHE_EXPIRATION', 60 * 24),
-        'key' => env('PERMISSION_CACHE_KEY', 'maklad.permission.cache'),
+        'key' => env('PERMISSION_CACHE_KEY', 'ramdanewis.permission.cache'),
     ],
 
     // Deprecated: Use cache.expiration_time instead

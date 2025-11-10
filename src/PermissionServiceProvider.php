@@ -1,17 +1,17 @@
 <?php
 
-namespace Maklad\Permission;
+namespace RamdanEwis\Permission;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Contracts\RoleInterface as Role;
-use Maklad\Permission\Directives\PermissionDirectives;
+use RamdanEwis\Permission\Contracts\PermissionInterface as Permission;
+use RamdanEwis\Permission\Contracts\RoleInterface as Role;
+use RamdanEwis\Permission\Directives\PermissionDirectives;
 
 /**
  * Class PermissionServiceProvider
- * @package Maklad\Permission
+ * @package RamdanEwis\Permission
  */
 class PermissionServiceProvider extends ServiceProvider
 {
