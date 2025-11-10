@@ -84,7 +84,7 @@ You can install the package via composer:
 For Laravel 10.x, 11.x, and 12.x use
 
 ``` bash
-composer require webrek/laravel-permission-mongodb
+composer require ramdanewis/laravel-permission-mongodb
 ```
 
 For Laravel 9.x use
